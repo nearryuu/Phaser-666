@@ -1,0 +1,35 @@
+body {
+    overflow: auto;
+    padding : 0;
+}
+
+#chat {
+    right: 0; 
+    top: 0; 
+    bottom: 0; 
+    background-color: lightgrey; 
+    position: absolute; 
+    width: 330px; 
+    z-index: 0;
+}
+
+ul {
+    list-style-type: none; 
+    height: 590px; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+input {
+    padding: 10px; 
+    font-size: 20px; 
+    width: 300px; 
+    position: absolute; 
+    bottom: 15px; 
+    left:0; 
+    right: 0;
+}
+
+.chatName {
+    font-weight: bold;
+}
